@@ -10,6 +10,8 @@ const tabCharacters = [
     name: "hermione Granger",
     image:
       "https://i.pinimg.com/564x/e8/0a/89/e80a896f6173198527abf4b3f96fc777.jpg",
+      description : "salut l'équipe",
+      
   },
 ];
 

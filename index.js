@@ -1,7 +1,7 @@
 const express = require("express");
 const cors = require("cors");
 const tabCharacters = require("./characters");
-
+const uberArticles = require("./uberSheet")
 const app = express();
 
 const serverPort = 4242;
@@ -14,6 +14,9 @@ app.get("/", (req, res) => {
 
 app.get("/characters", (req, res) => {
   res.json(tabCharacters);
+});
+app.get("/ubersheet", (req, res) => {
+  res.json(uberArticles);
 });
 
 app.get("/characters/:id", (req, res) => {
