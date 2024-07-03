@@ -1,7 +1,7 @@
 const express = require("express");
 const cors = require("cors");
 const tabCharacters = require("./characters");
-const uberArticles = require("./uberSheet")
+const uberSheet = require("./uberSheet")
 const app = express();
 
 const serverPort = 4242;
@@ -9,6 +9,7 @@ const serverPort = 4242;
 app.use(cors("*"));
 
 app.get("/", (req, res) => {
+
   res.json("je suis sur la route / ");
 });
 
@@ -16,7 +17,7 @@ app.get("/characters", (req, res) => {
   res.json(tabCharacters);
 });
 app.get("/ubersheet", (req, res) => {
-  res.json(uberArticles);
+  res.json(uberSheet);
 });
 
 app.get("/characters/:id", (req, res) => {

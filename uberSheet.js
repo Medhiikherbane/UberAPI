@@ -1,4 +1,4 @@
-const uberArticles = [
+const uberSheet = [
     {
       id: 1,
       name: "Fraise tagadux on the flux",
@@ -26,5 +26,5 @@ const uberArticles = [
         },
   ];
   
-  module.exports = uberArticles;
+  module.exports = uberSheet;
   
