@@ -16,14 +16,38 @@ const uberSheet = [
     id: 3,
       name: "Zinzin de l'espace",
       image:
-        "https://i.pinimg.com/564x/09/bb/f3/09bbf3c9d9598382a95785f85b3c5e6f.jpg",
+        "https://www.bofrost.fr/medias/W1440xH1200R1.2-02065-FR-fusees-a-l-eau-pic1.jpg?context=bWFzdGVyfHByb2R1Y3QtaW1hZ2VzfDE4MjMyMjd8aW1hZ2UvanBlZ3xhRGd5TDJnME1TODVPVGczTmpnd01UQTROVGMwTDFjeE5EUXdlRWd4TWpBd1VqRXVNbDh3TWpBMk5WOUdVbDltZFhObFpYTXRZUzFzTFdWaGRWOXdhV014TG1wd1p3fDNjY2U0OTAyNDAxMTVjOTJhMjRlNmZiODBmYWM1MzBiZjQ0NTcxNmRjNjJmZGMxNzgzNDdlN2Q4ZTU4YjQ2ODY",
     },
     {
     id: 4,
         name: "Assis-toi faut que j'te parle ",
         image:
             "https://i.pinimg.com/564x/09/bb/f3/09bbf3c9d9598382a95785f85b3c5e6f.jpg",
-        },
+    },
+    {
+    id: 5,
+        name: "R'garde la vie en bleu",
+        image:
+            "https://bonbons-family.com/cdn/shop/files/schtroumpfsharibo.webp?v=1684509959"
+    },
+    {
+    id: 6,
+        name: "Les billes du bonheur",
+        image:
+            "https://www.generation-souvenirs.com/28630-product_large/dragibus-haribo.jpg"
+    },
+    {
+    id: 7,
+        name: "Tic Tac BOOM",
+        image:
+           "https://www.valgourmand.com/36232-superlarge_default/tic-tac-cherry-sour-18g.webp"
+    },
+    {
+    id: 8,
+        name: "Cosmonest",
+        image:
+           "https://cdn.discordapp.com/attachments/1238447336502460532/1256193602443415552/space_cake_cosmonest.jpg?ex=66905bb5&is=668f0a35&hm=9797c0ae7bc33f3deb50d60cdbaadfdafcd04d1610295e3391fd4f824d99fea1&"
+    },
   ];
   
   module.exports = uberSheet;
