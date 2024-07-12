@@ -46,7 +46,7 @@ const uberSheet = [
     id: 8,
         name: "Cosmonest",
         image:
-           "https://cdn.discordapp.com/attachments/1238447336502460532/1256193602443415552/space_cake_cosmonest.jpg?ex=66905bb5&is=668f0a35&hm=9797c0ae7bc33f3deb50d60cdbaadfdafcd04d1610295e3391fd4f824d99fea1&"
+           "https://img.freepik.com/photos-premium/gateau-fusee-dessus-fusee-dessus_900370-21704.jpg"
     },
   ];
   
